@@ -10,3 +10,6 @@ name = "nomash-library-preview"
 
 [build.upload]
 format = "directory"
+
+# Cloudflare Pages specific configuration
+pages_build_output_dir = "dist"
