@@ -1,0 +1,12 @@
+[build]
+command = "npm run build"
+output_dir = "dist"
+
+[env.production]
+name = "nomash-library"
+
+[env.preview]
+name = "nomash-library-preview"
+
+[build.upload]
+format = "directory"
